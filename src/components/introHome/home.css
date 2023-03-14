@@ -1,0 +1,242 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.homeOuter {
+  background: url("/src/images/intro_banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.homeInner {
+  /* position:absolute; */
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.541),
+    rgb(0, 0, 0)
+  );
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 5rem;
+  z-index: 50000;
+}
+
+.navbar img {
+  position: relative;
+  padding: 0.5rem 0rem 0rem 4rem;
+  width: 15%;
+}
+
+.navlinks {
+  padding-right: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.navlinks button , .lastSignup button {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  font-size: 1rem;
+  background-color: #e50914;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+  color: white;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.banner button {
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  margin-top: 2rem;
+  padding: 1rem 1.3rem 1rem 1.3rem;
+  box-shadow: none;
+  outline: none;
+}
+
+.banner button:hover , .lastSignup button:hover {
+  background-color: #cb000a;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.features-banners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  /* padding:15rem 0rem 15rem 0rem; */
+}
+
+hr {
+  margin: 0% !important;
+  padding: 3px !important;
+  border: 1px solid rgb(40, 40, 40) !important;
+  background-color: rgb(40, 40, 40) !important;
+  opacity: 1 !important;
+}
+
+.features-banners h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.features-banners p {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.features-banners img {
+  width: 100%;
+}
+
+.features-banners div {
+  text-align: left;
+  padding: 5rem;
+}
+
+.faqOuterFrame {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 10rem 0rem 10rem;
+  background-color: black;
+}
+
+.faqOuterFrame h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.collapsebutton {
+  background-color: rgb(45 45 45) !important;
+  width: 100% !important;
+  border-radius: 2px !important;
+  padding: 1.4rem !important;
+  border: none !important;
+  text-align: left !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+ 
+
+.collapse, .show  .hide{
+  background-color: rgb(45 45 45) !important;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  border-top: 3px solid black;
+  font-size: 1.6rem;
+
+}
+
+
+#example-collapse-text{
+  background-color: rgb(45 45 45) !important;
+  text-align: left;
+  padding: 1rem;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  border-top: 1px solid rgba(0, 0, 0, 0.444);
+  font-size: 1.6rem;
+}
+
+
+
+.faqOuterFrame h3{
+  font-weight: normal;
+}
+
+
+.plusButton{
+  font-size: 2.5rem;
+}
+
+
+.section{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+.section h2{
+  padding-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.lastSignup button{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.lastSignup {
+  background-color: black;
+}
+
+
+
+.footer ul{
+  text-decoration: underline !;
+  list-style-type: none;
+}
+
+.footer{
+  background-color: black;
+}
+
+.footer a:hover{
+  color: white !important;
+  transition: .1s;
+}

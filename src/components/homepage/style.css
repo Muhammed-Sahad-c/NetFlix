@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    position: absolute;
+    top: -23%;
+    left: 2%;
+    width: 110px;
+}
+
+.links{
+    margin-left: 2.5rem;
+    color: white !important;
+    opacity: 1 !important;
+    font-weight:600;
+}
+
+
+.icon{
+    width: 21px;
+}
+
+.fonts{
+    font-weight:600 !important;
+}
+
+.profile{
+    background: url(https://media.istockphoto.com/id/1286810719/photo/smiling-cheerful-young-adult-african-american-ethnicity-man-looking-at-camera-standing-at.jpg?s=612x612&w=0&k=20&c=b9sWYITIZ_yjXB3m-Xftj-latPXQDhb5Roa0pA0JaNY=);
+    border-radius: 500rem;
+    background-size: cover;
+    width: 42px;
+    object-fit: scale-down;
+    height: 42px;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+.profile img{
+    width: 30px;
+    border-radius: 40rem;
+} */
+
+.chevicon{
+    width: 20px;
+}
+
+
+.banner{
+    height: 90vh;
+    /* background: url(https://wallpaperaccess.com/full/2855615.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bannerImage{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: -010;
+}
+.bannerImage img{
+    width: 100%;
+}
+.red{
+    background-color: black;
+}
+
+.banner-info{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+
+
+.series-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    /* font-family: 'Teko', sans-serif; */
+}
+
+.orj{
+    font-weight: lighter;
+    padding-left: 1rem;
+}
+
+.part{
+    font-size: 1.5rem;
+}
+
+.discription{
+    color: rgb(193, 193, 193);
+    font-weight: bold;
+    letter-spacing: .4px;
+    font-size: .8rem;
+}
+
+ .movie img{
+    width: 100%;
+    border-radius: 4px;
+ }
+
+ .background{
+    background-color:rgb(0, 0, 0);
+ }
+
+ div.scrollmenu {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a img{
+    width: 10rem;
+    padding: .3rem;
+    border-radius: 9px;
+  }
+  /* div.scrollmenu a:hover {
+    background-color: #777;
+  } */
+ 
+
+
+.background strong{
+    padding-top: 1rem;
+    color: rgb(199, 199, 199);
+    padding-left: 1rem;
+}
